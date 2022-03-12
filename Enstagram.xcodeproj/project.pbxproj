@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBFE473325335A062C0B0C2 /* Pods_EnstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61B6D22735AA9E438DC15366 /* Pods_EnstagramTests.framework */; };
+		DC7FF89672191F2C6E986EB0 /* Pods_Enstagram_EnstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F23A2FF60090EE25E78E0F /* Pods_Enstagram_EnstagramUITests.framework */; };
+		E40E011E27DD17E200F423D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E011D27DD17E200F423D5 /* AppDelegate.swift */; };
+		E40E012027DD17E200F423D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E011F27DD17E200F423D5 /* SceneDelegate.swift */; };
+		E40E012527DD17E200F423D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40E012327DD17E200F423D5 /* Main.storyboard */; };
+		E40E012727DD17E500F423D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40E012627DD17E500F423D5 /* Assets.xcassets */; };
+		E40E012A27DD17E500F423D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40E012827DD17E500F423D5 /* LaunchScreen.storyboard */; };
+		E40E013527DD17E500F423D5 /* EnstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E013427DD17E500F423D5 /* EnstagramTests.swift */; };
+		E40E013F27DD17E500F423D5 /* EnstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E013E27DD17E500F423D5 /* EnstagramUITests.swift */; };
+		E40E014127DD17E500F423D5 /* EnstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E014027DD17E500F423D5 /* EnstagramUITestsLaunchTests.swift */; };
+		E40E014E27DD248A00F423D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E014D27DD248A00F423D5 /* LoginViewController.swift */; };
+		E40E015027DD249800F423D5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E014F27DD249800F423D5 /* FeedViewController.swift */; };
+		E40E015227DD3B0500F423D5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E015127DD3B0500F423D5 /* CameraViewController.swift */; };
+		E40E015427DD472100F423D5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E015327DD472100F423D5 /* PostCell.swift */; };
+		F66FAB797B04F0538049007A /* Pods_Enstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D35972086D55226EB4ADA8B /* Pods_Enstagram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40E013127DD17E500F423D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40E011227DD17E200F423D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40E011927DD17E200F423D5;
+			remoteInfo = Enstagram;
+		};
+		E40E013B27DD17E500F423D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40E011227DD17E200F423D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40E011927DD17E200F423D5;
+			remoteInfo = Enstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5042830E370F862F497A810D /* Pods-Enstagram-EnstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enstagram-EnstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Enstagram-EnstagramUITests/Pods-Enstagram-EnstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D35972086D55226EB4ADA8B /* Pods_Enstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B6D22735AA9E438DC15366 /* Pods_EnstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D14901DF88484B3B850932 /* Pods-Enstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enstagram.release.xcconfig"; path = "Target Support Files/Pods-Enstagram/Pods-Enstagram.release.xcconfig"; sourceTree = "<group>"; };
+		7B54373C7ABA16A085D8E44A /* Pods-EnstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-EnstagramTests/Pods-EnstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91F411B5D363AF8D43360717 /* Pods-Enstagram-EnstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enstagram-EnstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Enstagram-EnstagramUITests/Pods-Enstagram-EnstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3F23A2FF60090EE25E78E0F /* Pods_Enstagram_EnstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Enstagram_EnstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB098B9CB60DE710A8D304A6 /* Pods-EnstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnstagramTests.release.xcconfig"; path = "Target Support Files/Pods-EnstagramTests/Pods-EnstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		E40E011A27DD17E200F423D5 /* Enstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E011D27DD17E200F423D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E40E011F27DD17E200F423D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E40E012427DD17E200F423D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40E012627DD17E500F423D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40E012927DD17E500F423D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E40E012B27DD17E500F423D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40E013027DD17E500F423D5 /* EnstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E013427DD17E500F423D5 /* EnstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnstagramTests.swift; sourceTree = "<group>"; };
+		E40E013A27DD17E500F423D5 /* EnstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40E013E27DD17E500F423D5 /* EnstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnstagramUITests.swift; sourceTree = "<group>"; };
+		E40E014027DD17E500F423D5 /* EnstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E40E014D27DD248A00F423D5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E40E014F27DD249800F423D5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E40E015127DD3B0500F423D5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		E40E015327DD472100F423D5 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E595F2CE9734E4924A736F99 /* Pods-Enstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enstagram.debug.xcconfig"; path = "Target Support Files/Pods-Enstagram/Pods-Enstagram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40E011727DD17E200F423D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66FAB797B04F0538049007A /* Pods_Enstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E012D27DD17E500F423D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBFE473325335A062C0B0C2 /* Pods_EnstagramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E013727DD17E500F423D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7FF89672191F2C6E986EB0 /* Pods_Enstagram_EnstagramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410195A4921132AD2FB3BDAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E595F2CE9734E4924A736F99 /* Pods-Enstagram.debug.xcconfig */,
+				78D14901DF88484B3B850932 /* Pods-Enstagram.release.xcconfig */,
+				91F411B5D363AF8D43360717 /* Pods-Enstagram-EnstagramUITests.debug.xcconfig */,
+				5042830E370F862F497A810D /* Pods-Enstagram-EnstagramUITests.release.xcconfig */,
+				7B54373C7ABA16A085D8E44A /* Pods-EnstagramTests.debug.xcconfig */,
+				DB098B9CB60DE710A8D304A6 /* Pods-EnstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E40E011127DD17E200F423D5 = {
+			isa = PBXGroup;
+			children = (
+				E40E011C27DD17E200F423D5 /* Enstagram */,
+				E40E013327DD17E500F423D5 /* EnstagramTests */,
+				E40E013D27DD17E500F423D5 /* EnstagramUITests */,
+				E40E011B27DD17E200F423D5 /* Products */,
+				410195A4921132AD2FB3BDAE /* Pods */,
+				F5DADFB85B0F7525E478F510 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E40E011B27DD17E200F423D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40E011A27DD17E200F423D5 /* Enstagram.app */,
+				E40E013027DD17E500F423D5 /* EnstagramTests.xctest */,
+				E40E013A27DD17E500F423D5 /* EnstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40E011C27DD17E200F423D5 /* Enstagram */ = {
+			isa = PBXGroup;
+			children = (
+				E40E011D27DD17E200F423D5 /* AppDelegate.swift */,
+				E40E011F27DD17E200F423D5 /* SceneDelegate.swift */,
+				E40E012327DD17E200F423D5 /* Main.storyboard */,
+				E40E012627DD17E500F423D5 /* Assets.xcassets */,
+				E40E012827DD17E500F423D5 /* LaunchScreen.storyboard */,
+				E40E012B27DD17E500F423D5 /* Info.plist */,
+				E40E014D27DD248A00F423D5 /* LoginViewController.swift */,
+				E40E014F27DD249800F423D5 /* FeedViewController.swift */,
+				E40E015127DD3B0500F423D5 /* CameraViewController.swift */,
+				E40E015327DD472100F423D5 /* PostCell.swift */,
+			);
+			path = Enstagram;
+			sourceTree = "<group>";
+		};
+		E40E013327DD17E500F423D5 /* EnstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40E013427DD17E500F423D5 /* EnstagramTests.swift */,
+			);
+			path = EnstagramTests;
+			sourceTree = "<group>";
+		};
+		E40E013D27DD17E500F423D5 /* EnstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E40E013E27DD17E500F423D5 /* EnstagramUITests.swift */,
+				E40E014027DD17E500F423D5 /* EnstagramUITestsLaunchTests.swift */,
+			);
+			path = EnstagramUITests;
+			sourceTree = "<group>";
+		};
+		F5DADFB85B0F7525E478F510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D35972086D55226EB4ADA8B /* Pods_Enstagram.framework */,
+				A3F23A2FF60090EE25E78E0F /* Pods_Enstagram_EnstagramUITests.framework */,
+				61B6D22735AA9E438DC15366 /* Pods_EnstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40E011927DD17E200F423D5 /* Enstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40E014427DD17E500F423D5 /* Build configuration list for PBXNativeTarget "Enstagram" */;
+			buildPhases = (
+				36279205510F5F1066930570 /* [CP] Check Pods Manifest.lock */,
+				E40E011627DD17E200F423D5 /* Sources */,
+				E40E011727DD17E200F423D5 /* Frameworks */,
+				E40E011827DD17E200F423D5 /* Resources */,
+				13A091097B5443EDB2C4FE9F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enstagram;
+			productName = Enstagram;
+			productReference = E40E011A27DD17E200F423D5 /* Enstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40E012F27DD17E500F423D5 /* EnstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40E014727DD17E500F423D5 /* Build configuration list for PBXNativeTarget "EnstagramTests" */;
+			buildPhases = (
+				1C8F6C201E84A5E201570DE7 /* [CP] Check Pods Manifest.lock */,
+				E40E012C27DD17E500F423D5 /* Sources */,
+				E40E012D27DD17E500F423D5 /* Frameworks */,
+				E40E012E27DD17E500F423D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40E013227DD17E500F423D5 /* PBXTargetDependency */,
+			);
+			name = EnstagramTests;
+			productName = EnstagramTests;
+			productReference = E40E013027DD17E500F423D5 /* EnstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E40E013927DD17E500F423D5 /* EnstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40E014A27DD17E500F423D5 /* Build configuration list for PBXNativeTarget "EnstagramUITests" */;
+			buildPhases = (
+				733EE0421283F3735EB25D41 /* [CP] Check Pods Manifest.lock */,
+				E40E013627DD17E500F423D5 /* Sources */,
+				E40E013727DD17E500F423D5 /* Frameworks */,
+				E40E013827DD17E500F423D5 /* Resources */,
+				DC3265530B93DCAD7B6E9E12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40E013C27DD17E500F423D5 /* PBXTargetDependency */,
+			);
+			name = EnstagramUITests;
+			productName = EnstagramUITests;
+			productReference = E40E013A27DD17E500F423D5 /* EnstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40E011227DD17E200F423D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E40E011927DD17E200F423D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E40E012F27DD17E500F423D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E40E011927DD17E200F423D5;
+					};
+					E40E013927DD17E500F423D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E40E011927DD17E200F423D5;
+					};
+				};
+			};
+			buildConfigurationList = E40E011527DD17E200F423D5 /* Build configuration list for PBXProject "Enstagram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40E011127DD17E200F423D5;
+			productRefGroup = E40E011B27DD17E200F423D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40E011927DD17E200F423D5 /* Enstagram */,
+				E40E012F27DD17E500F423D5 /* EnstagramTests */,
+				E40E013927DD17E500F423D5 /* EnstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40E011827DD17E200F423D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E012A27DD17E500F423D5 /* LaunchScreen.storyboard in Resources */,
+				E40E012727DD17E500F423D5 /* Assets.xcassets in Resources */,
+				E40E012527DD17E200F423D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E012E27DD17E500F423D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E013827DD17E500F423D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13A091097B5443EDB2C4FE9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enstagram/Pods-Enstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enstagram/Pods-Enstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enstagram/Pods-Enstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C8F6C201E84A5E201570DE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36279205510F5F1066930570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733EE0421283F3735EB25D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Enstagram-EnstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3265530B93DCAD7B6E9E12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enstagram-EnstagramUITests/Pods-Enstagram-EnstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Enstagram-EnstagramUITests/Pods-Enstagram-EnstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Enstagram-EnstagramUITests/Pods-Enstagram-EnstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40E011627DD17E200F423D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E014E27DD248A00F423D5 /* LoginViewController.swift in Sources */,
+				E40E015227DD3B0500F423D5 /* CameraViewController.swift in Sources */,
+				E40E011E27DD17E200F423D5 /* AppDelegate.swift in Sources */,
+				E40E015027DD249800F423D5 /* FeedViewController.swift in Sources */,
+				E40E012027DD17E200F423D5 /* SceneDelegate.swift in Sources */,
+				E40E015427DD472100F423D5 /* PostCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E012C27DD17E500F423D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E013527DD17E500F423D5 /* EnstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40E013627DD17E500F423D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40E013F27DD17E500F423D5 /* EnstagramUITests.swift in Sources */,
+				E40E014127DD17E500F423D5 /* EnstagramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40E013227DD17E500F423D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40E011927DD17E200F423D5 /* Enstagram */;
+			targetProxy = E40E013127DD17E500F423D5 /* PBXContainerItemProxy */;
+		};
+		E40E013C27DD17E500F423D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40E011927DD17E200F423D5 /* Enstagram */;
+			targetProxy = E40E013B27DD17E500F423D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40E012327DD17E200F423D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40E012427DD17E200F423D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40E012827DD17E500F423D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40E012927DD17E500F423D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40E014227DD17E500F423D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E40E014327DD17E500F423D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40E014527DD17E500F423D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E595F2CE9734E4924A736F99 /* Pods-Enstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Enstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.Enstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40E014627DD17E500F423D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D14901DF88484B3B850932 /* Pods-Enstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Enstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.Enstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E40E014827DD17E500F423D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B54373C7ABA16A085D8E44A /* Pods-EnstagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.EnstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enstagram.app/Enstagram";
+			};
+			name = Debug;
+		};
+		E40E014927DD17E500F423D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB098B9CB60DE710A8D304A6 /* Pods-EnstagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.EnstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enstagram.app/Enstagram";
+			};
+			name = Release;
+		};
+		E40E014B27DD17E500F423D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F411B5D363AF8D43360717 /* Pods-Enstagram-EnstagramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.EnstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enstagram;
+			};
+			name = Debug;
+		};
+		E40E014C27DD17E500F423D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5042830E370F862F497A810D /* Pods-Enstagram-EnstagramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9K5WT9N8P7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.houylingung.EnstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Enstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40E011527DD17E200F423D5 /* Build configuration list for PBXProject "Enstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E014227DD17E500F423D5 /* Debug */,
+				E40E014327DD17E500F423D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40E014427DD17E500F423D5 /* Build configuration list for PBXNativeTarget "Enstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E014527DD17E500F423D5 /* Debug */,
+				E40E014627DD17E500F423D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40E014727DD17E500F423D5 /* Build configuration list for PBXNativeTarget "EnstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E014827DD17E500F423D5 /* Debug */,
+				E40E014927DD17E500F423D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40E014A27DD17E500F423D5 /* Build configuration list for PBXNativeTarget "EnstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40E014B27DD17E500F423D5 /* Debug */,
+				E40E014C27DD17E500F423D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40E011227DD17E200F423D5 /* Project object */;
+}
