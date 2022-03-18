@@ -21,6 +21,7 @@
 		E40E015027DD249800F423D5 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E014F27DD249800F423D5 /* FeedViewController.swift */; };
 		E40E015227DD3B0500F423D5 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E015127DD3B0500F423D5 /* CameraViewController.swift */; };
 		E40E015427DD472100F423D5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E015327DD472100F423D5 /* PostCell.swift */; };
+		E415542127E3E7A20089EC0F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E415542027E3E7A20089EC0F /* CommentCell.swift */; };
 		F66FAB797B04F0538049007A /* Pods_Enstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D35972086D55226EB4ADA8B /* Pods_Enstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		E40E014F27DD249800F423D5 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		E40E015127DD3B0500F423D5 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E40E015327DD472100F423D5 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E415542027E3E7A20089EC0F /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		E595F2CE9734E4924A736F99 /* Pods-Enstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enstagram.debug.xcconfig"; path = "Target Support Files/Pods-Enstagram/Pods-Enstagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +147,7 @@
 				E40E014F27DD249800F423D5 /* FeedViewController.swift */,
 				E40E015127DD3B0500F423D5 /* CameraViewController.swift */,
 				E40E015327DD472100F423D5 /* PostCell.swift */,
+				E415542027E3E7A20089EC0F /* CommentCell.swift */,
 			);
 			path = Enstagram;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				E40E015027DD249800F423D5 /* FeedViewController.swift in Sources */,
 				E40E012027DD17E200F423D5 /* SceneDelegate.swift in Sources */,
 				E40E015427DD472100F423D5 /* PostCell.swift in Sources */,
+				E415542127E3E7A20089EC0F /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

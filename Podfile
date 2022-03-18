@@ -6,7 +6,9 @@ target 'Enstagram' do
   use_frameworks!
   
   pod 'Parse'
-  pod 'AlamofireImage'
+  pod 'AlamofireImage' 
+  pod 'MessageInputBar'
+  
 
   # Pods for Enstagram
 
